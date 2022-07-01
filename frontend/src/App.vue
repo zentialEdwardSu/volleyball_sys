@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from './components/HelloWorld.vue'
@@ -6,7 +6,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <HelloWorld msg="Hello Vue 3 + JavaScript + Vite" />
 </template>
 
 <style>
@@ -18,4 +18,25 @@ import HelloWorld from './components/HelloWorld.vue'
   color: #2c3e50;
   margin-top: 60px;
 }
+</style> -->
+<template>
+  <div id="app">
+    <router-view/>
+  </div>
+</template>
+<script>
+    export default {
+        setup() {
+            return {};
+        },
+        components: {
+
+        }
+    }
+</script>
+<style>
+  body{
+    margin: 0;
+    overflow: hidden;
+  }
 </style>
